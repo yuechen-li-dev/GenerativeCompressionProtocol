@@ -1,5 +1,7 @@
 # GeminiControlPacket
 
+You can test it with with any of the advanced prompts [here](https://github.com/ai-boost/awesome-prompts) and compare the output between the compressed and raw English prose prompt.
+
 Don't believe me? Try it out for yourself:
 
 Instructions:
@@ -72,5 +74,6 @@ Using GCP1, compress the following prompt into (JSON/YAML/TOML/TOON):
 [Your prompt here.]
 ```
 2. Hit 'Enter'.
+3. Get your compressed prompt.
 
 
