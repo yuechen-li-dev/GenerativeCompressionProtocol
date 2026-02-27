@@ -1,5 +1,21 @@
 # GeminiControlPacket
 
+## Summary of Results:
+
+| Format | Words | Chars | Word Ratio | Char Ratio | Word Savings |
+|---|---|---|---|---|---|
+| **Original** | 275 | 1,783 | 1.00x | 1.00x | 0% |
+| Normal JSON | 259 | 2,238 | 1.06x | 0.80x | 5.8% |
+| Normal YAML | 250 | 1,913 | 1.10x | 0.93x | 9.1% |
+| Normal TOML | 246 | 1,851 | 1.12x | 0.96x | 10.5% |
+| Normal TOON | 184 | 1,431 | 1.49x | 1.25x | 33.1% |
+| **GCP1+TOML** | **157** | **1,140** | **1.75x** | **1.56x** | **42.9%** |
+| **GCP1+JSON** | **152** | **1,184** | **1.81x** | **1.51x** | **44.7%** |
+| **GCP1+YAML** | **144** | **1,117** | **1.91x** | **1.60x** | **47.6%** |
+| **GCP1+TOON** | **132** | **968** | **2.08x** | **1.84x** | **52.0%** |
+
+[Benchmark Link](https://github.com/yuechen-li-dev/GeminiControlPacket/blob/main/benchmark.md)
+
 You can test it with with any of the advanced prompts [here](https://github.com/ai-boost/awesome-prompts) and compare the output between the compressed and raw English prose prompt.
 
 Don't believe me? Try it out for yourself:
