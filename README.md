@@ -2,6 +2,8 @@
 
 ## Summary of Results:
 
+[Base Prompt](https://github.com/yuechen-li-dev/GenerativeCompressionProtocol/blob/main/benchmark-reproducibility-prompt.md)
+
 ### Claude 4.6 Sonnet
 | Format | Words | Chars | Word Ratio | Char Ratio | Word Savings |
 |---|---|---|---|---|---|
@@ -48,14 +50,13 @@
 
 [Benchmark Link](https://github.com/yuechen-li-dev/GenerativeCompressionProtocol/blob/main/benchmark-chatgpt.md)
 
-You can test it with with any of the advanced prompts [here](https://github.com/ai-boost/awesome-prompts) and compare the output between the compressed and raw English prose prompt.
-
 ---
 
 Don't believe me? Try it out for yourself:
 
 Instructions:
-1. Copypaste the following code block into any LLM. (ChatGPT, Claude, Gemini, etc.)
+1. Copypaste the code block inside the [Base Benchmark Prompt](https://github.com/yuechen-li-dev/GenerativeCompressionProtocol/blob/main/benchmark-reproducibility-prompt.md) into any LLM to produce test report.
+1a. Or, copypaste the following code block into any LLM. (ChatGPT, Claude, Gemini, etc.)
 ```md
 GCP1 {
  名称:"GenerativeCompressionProtocol"
