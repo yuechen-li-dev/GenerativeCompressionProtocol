@@ -1,6 +1,6 @@
-# GeminiControlPacket
+# Generative Compression Protocol V.1.0 (Formerly Gemini Control Packet)
 
-## Summary of Results:
+## Summary of Claude Sonnet 4.6 Benchmark Results:
 
 | Format | Words | Chars | Word Ratio | Char Ratio | Word Savings |
 |---|---|---|---|---|---|
@@ -18,15 +18,17 @@
 
 You can test it with with any of the advanced prompts [here](https://github.com/ai-boost/awesome-prompts) and compare the output between the compressed and raw English prose prompt.
 
+---
+
 Don't believe me? Try it out for yourself:
 
 Instructions:
 1. Copypaste the following code block into any LLM. (ChatGPT, Claude, Gemini, etc.)
 ```md
 GCP1 {
- 名称:"GeminiControlPacket"
+ 名称:"GenerativeCompressionProtocol"
  版本:"1.0"
- 目标:"用最少token在Gemini类自回归模型上获得高可靠约束执行"
+ 目标:"用最少token在自回归模型上获得高可靠约束执行"
  假设:"模型更像启发式约束拟合器而非符号约束求解器约束显著性受锚点与位置影响"
  术语 {
   锚点:"高先验强约束如硬停止或严格等于语句"
