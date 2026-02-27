@@ -1,6 +1,6 @@
 # GCP1 Serialization Format Benchmark
 
-> **GCP1 (GeminiControlPacket v1.0)** is a model-native prompt compression algorithm derived from empirical observations about how autoregressive LLMs process constraints. This benchmark measures its compression effect applied uniformly across four serialization formats: JSON, YAML, TOML, and TOON.
+> **GCP1 (Generative Compression Protocol v1.0)** is a model-native prompt compression algorithm derived from empirical observations about how autoregressive LLMs process constraints. This benchmark measures its compression effect applied uniformly across four serialization formats: JSON, YAML, TOML, and TOON.
 
 ---
 
@@ -378,5 +378,5 @@ For practitioners optimizing LLM API token costs or context window utilization, 
 
 ---
 
-*GCP1 spec and algorithm: [yuechen-li-dev/GeminiControlPacket](https://github.com/yuechen-li-dev/GeminiControlPacket)*  
+*GCP1 spec and algorithm: [yuechen-li-dev/GenerativeCompressionProtocol](https://github.com/yuechen-li-dev/GeminiControlPacket)*  
 *Benchmark authored with Claude Sonnet 4.6, February 2026*
