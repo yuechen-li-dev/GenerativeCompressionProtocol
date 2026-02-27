@@ -1,7 +1,8 @@
 # Generative Compression Protocol V.1.0 (Formerly Gemini Control Packet)
 
-## Summary of Claude Sonnet 4.6 Benchmark Results:
+## Summary of Results:
 
+### Claude 4.6 Sonnet
 | Format | Words | Chars | Word Ratio | Char Ratio | Word Savings |
 |---|---|---|---|---|---|
 | **Original** | 275 | 1,783 | 1.00x | 1.00x | 0% |
@@ -15,6 +16,21 @@
 | **GCP1+TOON** | **132** | **968** | **2.08x** | **1.84x** | **52.0%** |
 
 [Benchmark Link](https://github.com/yuechen-li-dev/GeminiControlPacket/blob/main/benchmark.md)
+
+### Gemini 3 Thinking
+| Format | Words | Chars | Word Ratio | Char Ratio | Word Savings |
+|---|---|---|---|---|---|
+| **Original** | 275 | 1,783 | 1.00x | 1.00x | 0% |
+| Normal JSON | 258 | 2,244 | 1.07x | 0.79x | 6.2% |
+| GCP1+JSON | 62 | 525 | 4.44x | 3.40x | 77.5% |
+| Normal YAML | 254 | 1,941 | 1.08x | 0.92x | 7.6% |
+| GCP1+YAML | 56 | 451 | 4.91x | 3.95x | 79.6% |
+| Normal TOML | 260 | 2,152 | 1.06x | 0.83x | 5.5% |
+| GCP1+TOML | 50 | 433 | 5.50x | 4.12x | 81.8% |
+| Normal TOON | 86 | 821 | 3.20x | 2.17x | 68.7% |
+| **GCP1+TOON** | **40** | **382** | **6.88x** | **4.67x** | **85.5%** |
+
+[Benchmark Link](https://gemini.google.com/share/c14a0aed6eb7)
 
 You can test it with with any of the advanced prompts [here](https://github.com/ai-boost/awesome-prompts) and compare the output between the compressed and raw English prose prompt.
 
