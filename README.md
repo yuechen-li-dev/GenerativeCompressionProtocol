@@ -32,6 +32,22 @@
 
 [Benchmark Link](https://gemini.google.com/share/c14a0aed6eb7)
 
+### ChatGPT 5.2 Thinking
+
+| Format | Words | Chars | Word Ratio | Char Ratio | Word Savings |
+|---|---:|---:|---:|---:|---:|
+| Original | 275 | 1783 | 1.00x | 1.00x | 0% |
+| Normal JSON | 283 | 2246 | 0.97x | 0.79x | -2.9% |
+| GCP1+JSON | 147 | 1111 | 1.87x | 1.60x | 46.5% |
+| Normal YAML | 269 | 1900 | 1.02x | 0.94x | 2.2% |
+| GCP1+YAML | 131 | 1024 | 2.10x | 1.74x | 52.4% |
+| Normal TOML | 288 | 2004 | 0.95x | 0.89x | -4.7% |
+| GCP1+TOML | 132 | 1019 | 2.08x | 1.75x | 52.0% |
+| Normal TOON | 239 | 1842 | 1.15x | 0.97x | 13.1% |
+| GCP1+TOON | 107 | 1011 | 2.57x | 1.76x | 61.1% |
+
+[Benchmark Link](https://github.com/yuechen-li-dev/GenerativeCompressionProtocol/blob/main/benchmark-chatgpt.md)
+
 You can test it with with any of the advanced prompts [here](https://github.com/ai-boost/awesome-prompts) and compare the output between the compressed and raw English prose prompt.
 
 ---
