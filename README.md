@@ -1,10 +1,12 @@
 # Generative Compression Protocol V.1.0 (Formerly Gemini Control Packet)
 
-## Summary of Results:
+> **GCP1 (Generative Compression Protocol v1.0)** is a model-native prompt compression algorithm derived from empirical observations about how autoregressive LLMs process constraints. This benchmark measures its compression effect applied uniformly across four serialization formats: JSON, YAML, TOML, and TOON.
+
+## Summary of Results
 
 [Base Prompt](https://github.com/yuechen-li-dev/GenerativeCompressionProtocol/blob/main/benchmark-reproducibility-prompt.md)
 
-### Claude 4.6 Sonnet
+### Claude 4.6 Sonnet (Baseline)
 | Format | Words | Chars | Word Ratio | Char Ratio | Word Savings |
 |---|---|---|---|---|---|
 | **Original** | 275 | 1,783 | 1.00x | 1.00x | 0% |
